@@ -169,7 +169,7 @@ To give users advanced notice and provide some future direction for this module,
 -   ]
 }
 
-+ module "eks" {
++ module "eks_auth" {
 +   source  = "terraform-aws-modules/eks/aws//modules/aws-auth"
 +   version = "~> 20.0"
 
